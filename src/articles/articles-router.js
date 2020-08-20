@@ -74,6 +74,7 @@ articlesRouter
             title: xss(res.article.title), // sanitize title
             content: xss(res.article.content), // sanitize content
             date_published: res.article.date_published,
+            author: res.article.author,
         })
     })
 
