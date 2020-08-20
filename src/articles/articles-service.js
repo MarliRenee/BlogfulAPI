@@ -26,7 +26,7 @@ const ArticlesService = {
     updateArticle(knex, id, newArticleFields) {
         return knex('blogful_articles')
             .where({ id })
-            .updaate(newArticleFields)
+            .update(newArticleFields)
     },
 }
 
